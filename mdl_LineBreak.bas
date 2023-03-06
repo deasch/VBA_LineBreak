@@ -2,7 +2,7 @@
 
 
 '#####
-Public Sub Remove (strText as String) as String
+Public Sub RemoveFromString (strText as String) as String
     
     '##### Code #####
     If Len(strText) <> 0 Then
@@ -10,11 +10,11 @@ Public Sub Remove (strText as String) as String
             strText = Left$(strText, Len(strText) - 2)
         End If
     End If
-    Remove = strText
+    RemoveFromString = strText
     
     
     '##### Optional #####
-    'Remove = Application.WorksheetFunction.Clean(strText)
+    'RemoveFromString = Application.WorksheetFunction.Clean(strText)
     
 
 '#####
