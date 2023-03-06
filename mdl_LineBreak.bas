@@ -3,8 +3,6 @@
 
 '#####
 Public Sub Remove (strText as String) as String
-
-    
     
     '##### Code #####
     If Len(strText) <> 0 Then
@@ -15,10 +13,8 @@ Public Sub Remove (strText as String) as String
     Remove = strText
     
     
-    
     '##### Optional #####
     'Remove = Application.WorksheetFunction.Clean(strText)
-    
     
     
 End Sub
