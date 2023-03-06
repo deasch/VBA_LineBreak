@@ -16,5 +16,6 @@ Public Sub Remove (strText as String) as String
     '##### Optional #####
     'Remove = Application.WorksheetFunction.Clean(strText)
     
-    
+
+'#####
 End Sub
